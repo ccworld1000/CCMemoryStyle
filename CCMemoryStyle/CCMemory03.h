@@ -10,14 +10,10 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CCMemory03 : NSObject
 
-@property (nonatomic, copy) double cc1;
-@property (nonatomic, copy) double cc2;
-@property (nonatomic, copy) double cc3;
+@property (nonatomic) double cc1;
+@property (nonatomic) double cc2;
+@property (nonatomic) double cc3;
 
 @end
-
-NS_ASSUME_NONNULL_END

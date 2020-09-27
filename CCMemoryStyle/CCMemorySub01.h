@@ -9,14 +9,11 @@
 //  Just for CCMemoryStyle
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "CCMemory01.h"
 
 @interface CCMemorySub01 : CCMemory01
 
-@property (nonatomic, copy) float ccsub1;
-@property (nonatomic, copy) float ccsub2;
+@property (nonatomic) float ccsub1;
+@property (nonatomic) float ccsub2;
 
 @end
-
-NS_ASSUME_NONNULL_END

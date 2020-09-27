@@ -10,8 +10,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CCMemory23 : NSObject
 
 @property (nonatomic, strong) NSMutableDictionary *cc1;
@@ -39,5 +37,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableDictionary *cc23;
 
 @end
-
-NS_ASSUME_NONNULL_END

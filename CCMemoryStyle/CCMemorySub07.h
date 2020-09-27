@@ -9,20 +9,17 @@
 //  Just for CCMemoryStyle
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "CCMemory07.h"
 
 @interface CCMemorySub07 : CCMemory07
 
-@property (nonatomic, copy) NSNumber *ccsub1;
-@property (nonatomic, copy) NSNumber *ccsub2;
-@property (nonatomic, copy) NSNumber *ccsub3;
-@property (nonatomic, copy) NSNumber *ccsub4;
-@property (nonatomic, copy) NSNumber *ccsub5;
-@property (nonatomic, copy) NSNumber *ccsub6;
-@property (nonatomic, copy) NSNumber *ccsub7;
-@property (nonatomic, copy) NSNumber *ccsub8;
+@property (nonatomic, strong) NSNumber *ccsub1;
+@property (nonatomic, strong) NSNumber *ccsub2;
+@property (nonatomic, strong) NSNumber *ccsub3;
+@property (nonatomic, strong) NSNumber *ccsub4;
+@property (nonatomic, strong) NSNumber *ccsub5;
+@property (nonatomic, strong) NSNumber *ccsub6;
+@property (nonatomic, strong) NSNumber *ccsub7;
+@property (nonatomic, strong) NSNumber *ccsub8;
 
 @end
-
-NS_ASSUME_NONNULL_END

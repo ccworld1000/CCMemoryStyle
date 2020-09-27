@@ -10,8 +10,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CCMemory28 : NSObject
 
 @property (nonatomic, strong) NSMutableArray *cc1;
@@ -44,5 +42,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray *cc28;
 
 @end
-
-NS_ASSUME_NONNULL_END

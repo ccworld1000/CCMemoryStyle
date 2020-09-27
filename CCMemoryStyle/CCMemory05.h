@@ -10,16 +10,12 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CCMemory05 : NSObject
 
-@property (nonatomic, copy) CGRect cc1;
-@property (nonatomic, copy) CGRect cc2;
-@property (nonatomic, copy) CGRect cc3;
-@property (nonatomic, copy) CGRect cc4;
-@property (nonatomic, copy) CGRect cc5;
+@property (nonatomic) CGRect cc1;
+@property (nonatomic) CGRect cc2;
+@property (nonatomic) CGRect cc3;
+@property (nonatomic) CGRect cc4;
+@property (nonatomic) CGRect cc5;
 
 @end
-
-NS_ASSUME_NONNULL_END

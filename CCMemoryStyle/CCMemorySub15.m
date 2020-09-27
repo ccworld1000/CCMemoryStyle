@@ -8,12 +8,8 @@
 //  https://github.com/ccworld1000/CCMemoryStyle
 //  Just for CCMemoryStyle
 
-#import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "CCMemorySub15.h"
 
 @implementation CCMemorySub15
 
 @end
-
-NS_ASSUME_NONNULL_END

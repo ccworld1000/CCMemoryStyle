@@ -10,8 +10,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CCMemory16 : NSObject
 
 @property (nonatomic, copy) NSString *cc1;
@@ -32,5 +30,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *cc16;
 
 @end
-
-NS_ASSUME_NONNULL_END

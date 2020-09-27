@@ -10,20 +10,16 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface CCMemory09 : NSObject
 
-@property (nonatomic, copy) NSNumber *cc1;
-@property (nonatomic, copy) NSNumber *cc2;
-@property (nonatomic, copy) NSNumber *cc3;
-@property (nonatomic, copy) NSNumber *cc4;
-@property (nonatomic, copy) NSNumber *cc5;
-@property (nonatomic, copy) NSNumber *cc6;
-@property (nonatomic, copy) NSNumber *cc7;
-@property (nonatomic, copy) NSNumber *cc8;
-@property (nonatomic, copy) NSNumber *cc9;
+@property (nonatomic, strong) NSNumber *cc1;
+@property (nonatomic, strong) NSNumber *cc2;
+@property (nonatomic, strong) NSNumber *cc3;
+@property (nonatomic, strong) NSNumber *cc4;
+@property (nonatomic, strong) NSNumber *cc5;
+@property (nonatomic, strong) NSNumber *cc6;
+@property (nonatomic, strong) NSNumber *cc7;
+@property (nonatomic, strong) NSNumber *cc8;
+@property (nonatomic, strong) NSNumber *cc9;
 
 @end
-
-NS_ASSUME_NONNULL_END

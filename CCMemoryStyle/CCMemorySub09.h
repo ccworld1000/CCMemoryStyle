@@ -9,8 +9,7 @@
 //  Just for CCMemoryStyle
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "CCMemory09.h"
 
 @interface CCMemorySub09 : CCMemory09
 
@@ -26,5 +25,3 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *ccsub10;
 
 @end
-
-NS_ASSUME_NONNULL_END
