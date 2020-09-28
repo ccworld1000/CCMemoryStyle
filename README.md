@@ -5,7 +5,7 @@ CCMemoryStyle memory map, Memory distribution, maybe you can do more from it.
 Fg:
 
 ```shell
-CC # ./CCMemory CCMemoryStyle.framework/CCMemoryStyle
+CC # CCMemory CCMemoryStyle.framework/CCMemoryStyle
 Class Name                                         	Memory size
 
 CCMemory01                                         	16
@@ -38,7 +38,6 @@ CCMemory27                                         	224
 CCMemory28                                         	240
 CCMemory29                                         	240
 CCMemory30                                         	256
-PodsDummy_CCMemoryStyle                            	16
 CCMemorySub01                                      	16
 CCMemorySub02                                      	32
 CCMemorySub03                                      	16
